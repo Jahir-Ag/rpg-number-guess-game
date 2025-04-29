@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Adivina el Número - RPG</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <img src="assets/fondo.png" alt="Fondo RPG" class="background" />
+    <img src="assets/piso.png" alt="Piso" class="piso" />
+    <img src="assets/casa.png" alt="Casa" class="casa" />
+    <img src="assets/jugador.png" alt="Jugador" id="jugador" class="jugador" />
+    <img src="assets/monstruo1.png" alt="Monstruo" id="monstruo" class="monstruo" />
+    
+    <div class="panel">
+      <p>Estoy pensando en un número entre 1 y 100. ¿Puedes adivinar cuál es?</p>
+      <input type="number" id="guessInput" placeholder="Tu número..." min="1" max="100" />
+      <button id="guessButton">Adivinar</button>
+      <p id="message"></p>
+      <p id="attempts">Intentos: 0</p>
+      <button id="restartButton" style="display: none;">Jugar de nuevo</button>
+    </div>
+  </div>
+
+  <audio id="musica" loop autoplay>
+    <source src="assets/sounds/musica.mp3" type="audio/mpeg" />
+  </audio>
+
+  <audio id="enterSound" src="assets/sounds/enter-house.mp3"></audio>
+
+
+  <script src="script.js"></script>
+  <div id="popup" class="popup-message"></div>
+
+</body>
+</html>
