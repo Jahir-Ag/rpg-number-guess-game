@@ -1,44 +1,45 @@
 # 🎮 RPG Number Guess Game (16-bit Style)
 
-¡Bienvenido al minijuego de adivinanzas con estética de videojuego RPG clásico!
+Welcome to the classic RPG-style guessing mini-game!
 
-## 🧩 Descripción
+## 🧩 Description
 
-Este es un pequeño juego interactivo donde debes adivinar un número entre 1 y 100. Tienes un número limitado de intentos antes de que un monstruo te alcance. 
-El juego está ambientado en un estilo visual de 16 bits, con animaciones, música retro y enemigos al acecho.
+This is a small interactive game where you must guess a number between 1 and 100. You have a limited number of attempts before a monster reaches you. The game features a 16-bit visual style, retro music, animations, and lurking enemies.
 
-## 🕹️ Cómo jugar
+## 🕹️ How to Play
 
-1. Ingresa un número entre 1 y 100 y haz clic en **Adivinar**.
-2. Si el número es demasiado bajo o alto, se te notificará.
-3. Cada intento hace que el monstruo se acerque.
-4. Si adivinas el número **antes de que el monstruo llegue** y en menos de 7 turnos, ¡entras a la casa y ganas!
-5. Si fallas, el monstruo te alcanza... 😱
+- Enter a number between 1 and 100 and click "Guess".
+- If the number is too low or too high, you'll be notified.
+- Each attempt brings the monster closer.
+- If you guess the number before the monster reaches you and in fewer than 7 turns, you enter the house and win!
+- If you fail, the monster gets you... 😱
 
-## 🎨 Características
+## 🎨 Features
 
-- Estética visual tipo RPG de 16 bits.
-- Música de fondo de suspenso sin copyright.
-- Animaciones del personaje al entrar a la casa.
-- Mensajes emergentes personalizados.
-- Código limpio y modular en HTML, CSS y JavaScript.
+- 16-bit RPG visual aesthetics.
+- Royalty-free suspense background music.
+- Character animation when entering the house.
+- Custom pop-up messages.
+- Clean and modular code in HTML, CSS, and JavaScript.
 
-## 🔧 Tecnologías usadas
+## 🔧 Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript (vanilla)
-- Git + GitHub
+- HTML5  
+- CSS3  
+- JavaScript (vanilla)  
+- Git + GitHub  
 
-##Abre `index.html` en tu navegador.
+## 📷 Screenshot
 
-¡Y listo para jugar!
+![Game Screenshot](assets/screenshot.png)  
 
-## 📜 Licencia
+## 🚀 How to Run
 
-Este proyecto es de uso personal y educativo. Puedes usarlo como inspiración o base para tus propios proyectos.
+Open `index.html` in your browser.  
+Ready to play!
 
----
+## 📜 License
 
-🧙‍♂️ ¡Buena suerte, héroe! ¡Adivina antes de que te atrapen!
+This project is for personal and educational use. Feel free to use it as inspiration or as a base for your own projects.
 
+## 🧙‍♂️ Good luck, hero! Guess before the monster catches you...
